@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 4: Detectives de la Convivencia Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 4: Detectives de la Convivencia Digital</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Diferenciar entre broma, conflicto y acoso.</li>
+                                        <li>Identificar señales emocionales propias y ajenas ante agresiones digitales.</li>
+                                        <li>Distinguir entre bromas, conflictos y acoso en entornos digitales escolares, y desarrollar un juicio ético inicial.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Desarrollo de la capacidad de distinguir entre broma, conflicto y acoso en línea, culminando en la internalización del 'Termómetro del Detective' para evaluar situaciones digitales.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Cuaderno y colores.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación para explorar diferentes tipos de interacciones.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Activación: Cadena de Palabras Digital.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Atención, Detectives! 🕵️‍♀️ ¡A sus puestos de investigación! Para activar nuestra mente analítica, vamos a una Cadena de Palabras Digital sobre el tema: 'Formas en que hablamos con otros'. ¡Yo empiezo! CONVERSAR... ¡La última letra es la 'R'!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>Guía a los estudiantes para que continúen la cadena de palabras. Guíales si es necesario para incluir palabras como "bromear", "discutir", "ayudar", "molestar".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Reír! ¡Responder! ¡Bromear! ¡Discutir! ¡Wow, hay tantas formas de interactuar! Algunas nos hacen sentir bien 👍, otras no tanto 👎. ¡Esa habilidad para diferenciar es justo lo que necesita un detective de la convivencia!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo usando la pregunta clave de la misión anterior.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 3. Recuerdo Relámpago: El Código del Arquitecto.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Detectives! Antes de abrir un nuevo caso, recordemos nuestro código de la misión pasada: REVISAR, DECIDIR y CONTROLAR. Lo usamos para proteger nuestro castillo. Pero eso nos dejó una pregunta: Si ya sabemos proteger nuestro castillo con muros, ¿qué hacemos cuando la amenaza no viene de afuera, sino de adentro, en una discusión o una broma pesada?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>En parejas, pide que discutan la pregunta. Conecta sus respuestas con la misión de hoy.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¿Un muro puede detener una palabra hiriente en un chat grupal? (Pausa). ¡No! Para eso necesitamos otras herramientas. Necesitamos un 'detector de intenciones'. ¡Hoy vamos a construir ese detector!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión con una metáfora de investigación y análisis.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyecta Diapositiva 4. Objetivos de la Misión. (Imagen de un detective mirando con lupa tres huellas digitales diferentes: una es una carita sonriente, otra son dos espadas cruzadas y la tercera es una cara triste y repetida).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es convertirnos en DETECTIVES DE LA CONVIVENCIA DIGITAL. En línea, cada interacción deja una 'huella emocional'. Hoy aprenderemos a usar nuestra lupa de detective 🔎 para diferenciar la huella de una BROMA (risa), un CONFLICTO (choque) y el ACOSO (dolor repetido).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Pide a los estudiantes que escriban o dibujen su "I Can Statement" y que lo compartan.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Todo detective tiene una especialidad. La mía es: 'Yo puedo identificar la diferencia entre un choque de opiniones y un ataque personal'. Ahora ustedes, en su cuaderno de detective, completen: 'Hoy mi lupa me ayudará a ver...'.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar la curiosidad con una historia que presenta tres escenarios que parecen similares pero son diferentes.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 5. Brain Boost: El Caso del Chat de 'Cosmic Craft'.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">En el chat del juego 'Cosmic Craft', suceden tres cosas. Escena 1: Sara le dice a Leo: '¡Jaja, tu nave espacial parece una papa con alas! 🥔'. Leo responde: '¡Pues tu base parece un brócoli gigante! 🥦'. Ambos se ríen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 6. Las Otras Escenas. (Imágenes del chat con las otras dos situaciones).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Escena 2: Sara le dice a Leo: 'No estoy de acuerdo, la base en la luna es mejor que en el asteroide'. Leo responde: 'Estás equivocada, es más peligroso'. La discusión sube de tono. Escena 3: Todos los días, Sara le escribe a Leo: 'Papa con alas, eres el peor jugador'. Y organiza a otros para que no lo dejen entrar a su equipo. En las 3 escenas hay tensión. ¿Qué hace que la primera sea una broma, la segunda un conflicto y la tercera algo mucho más serio?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conecta la historia con el objetivo de la misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Ahí está la clave! ¡La intención! En la primera, se ríen juntos. En la segunda, discuten una idea. En la tercera, el ataque es personal, repetido y busca excluir. ¡Esa es la huella del acoso! ¡Hoy vamos a ser expertos en identificar esas huellas!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Practicar la identificación de situaciones en un entorno gamificado.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Da la instrucción y pide a los estudiantes que ingresen a la plataforma para jugar el minijuego de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de ir al laboratorio forense! Ingresen a la plataforma y jueguen la misión 'Clasificador de Huellas'. Se les presentarán diferentes chats y situaciones. Su misión: usar su sello de detective para clasificar cada caso como 'BROMA', 'CONFLICTO' o 'ACOSO'. ¡Afine su instinto!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir el reto interactivo, estableciendo que los estudiantes son los protagonistas.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 8. Challenge: Elige tu Camino Digital.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han demostrado un instinto de detective increíble! Ahora, la prueba definitiva. No analizarán un caso... ¡lo vivirán! Se convertirán en el protagonista de una historia y sus decisiones cambiarán todo. ¡Prepárense para la misión 'Elige tu Camino Digital'!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 3 minutos</h3>
+                            <p>Proyecta Diapositiva 9. Decisión 1: La Broma Inicial. (Imagen de un chat grupal con el meme).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Eres Álex. Acabas de entrar al chat del equipo y ves que alguien publicó un meme burlándose de tu nueva mochila. Algunos le dan 'like'. ¿Qué haces? <br> 🅰️ Opción A: Respondes con otro chiste sobre ti mismo para demostrar que no te importa.<br> 🅱️ Opción B: No dices nada, lo ignoras y esperas que el tema pase. <br>💬 Opción C: Escribes en privado a quien lo publicó: 'Oye, ese meme no me hizo sentir bien'."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 4 minutos</h3>
+                            <p>Proyecta Diapositiva 10. Decisión 2: La Consecuencia. Narra las consecuencias y presenta la siguiente elección.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Ok, la mayoría eligió B: ignorarlo. Pero la broma no paró. Al día siguiente, el mismo compañero te excluye del equipo del juego diciendo 'no queremos a gente con mochilas raras'. Ahora la situación es diferente. ¿Cuál es tu siguiente movimiento? <br>🅰️ Opción A: Le respondes en el chat público: '¡Eso no es justo! ¡Son unos abusivos!'.<br>🅱️ Opción B: Tomas una captura de pantalla de la conversación y se la muestras a un adulto de confianza (maestro, padres).<br>💬 Opción C: Te sales de todos los grupos y no vuelves a jugar con ellos."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 11. El Camino del Héroe Digital. Guía el refuerzo del aprendizaje resumiendo el camino más seguro y justificando por qué es la estrategia más efectiva.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! ¿Qué camino tomaron al final? ¡La opción B! ¡Exacto! Responder con enojo (A) podría empeorar las cosas y aislarse (C) no resuelve el problema. Pero tomar evidencia y pedir ayuda a un adulto 🦸 es el movimiento de un verdadero héroe digital. ¡No solo te protege a ti, sino que ayuda a detener el problema para todos!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 12. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han navegado una situación difícil como verdaderos héroes! Una última pregunta: ¿qué herramienta mental usamos para saber cuándo una 'broma' dejó de ser divertida y se convirtió en un problema?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 13. El Termómetro del Detective. Presenta el termómetro de 3 niveles.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"¡Exacto! ¡Nuestro instinto, nuestro termómetro! Para que siempre tengan esta herramienta a la mano, esta es su nueva clave secreta: el Termómetro del Detective. <br>🌡️ Nivel VERDE (Broma) 😊: Todos se ríen y se sienten bien.<br>🌡️ Nivel AMARILLO (Conflicto) ⚔️: Se discuten ideas, no personas. Puede ser incómodo, pero no hay ataque personal.<br>🌡️ Nivel ROJO (Acoso) 💔: Es repetido, es personal y busca herir o excluir."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Repite los niveles con gestos (risa, choque de manos, pulgar abajo). Lanza la pregunta de conexión para la siguiente misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a medir! ¡Nivel Verde! (ríen). ¡Nivel Amarillo! (chocan los puños). ¡Nivel Rojo! (pulgar abajo y cara triste). ¡Perfecto! Guarden este termómetro, porque nos deja una pregunta: Si nuestro termómetro marca ROJO, ¿cuáles son los pasos de acción que un ciudadano digital heroico debe seguir? 🤔 ¡Nos vemos en la próxima misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
